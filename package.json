@@ -57,5 +57,5 @@
     "test:1": "npm run lint-check-rules",
     "test:2": "npm run lint"
   },
-  "version": "0.0.0"
+  "version": "1.0.0"
 }

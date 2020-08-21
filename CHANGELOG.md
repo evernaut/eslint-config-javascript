@@ -36,9 +36,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 ### Semantic Version: Major
 
-- #1: Create git repository
-- #2: Add template files
-- #4: Add base ESLint config
+- None
 
 #### Migration Steps
 
@@ -55,3 +53,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 ### Semantic Version: None
 
 - None
+
+## [1.0.0](https://github.com/evernaut/eslint-config-base/releases/tag/1.0.0 "Release 1.0.0")
+
+**Release Date:** 2020-08-20
+
+### Semantic Version: Major
+
+- #1: Create git repository
+- #2: Add template files
+- #4: Add base ESLint config
