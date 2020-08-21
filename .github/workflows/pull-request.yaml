@@ -35,3 +35,20 @@ jobs:
         run: unzip -q node_modules.zip
       - name: Lint
         uses: ./.github/actions/lint
+  lint-check-rules:
+    name: (Pull Request) Lint Check Rules
+    needs: install
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Check out the git branch
+        uses: actions/checkout@v2.3.2
+        with:
+          lfs: true
+      - name: Download node_modules.zip
+        uses: actions/download-artifact@v2.0.5
+        with:
+          name: node_modules.zip
+      - name: Unzip node_modules.zip
+        run: unzip -q node_modules.zip
+      - name: Lint Check Rules
+        uses: ./.github/actions/lint-check-rules

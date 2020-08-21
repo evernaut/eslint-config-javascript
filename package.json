@@ -2,11 +2,12 @@
   "bugs": {
     "url": "https://github.com/evernaut/eslint-config-base/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "eslint-config-prettier": "^6.11.0"
+  },
   "description": "The Evernaut base ESLint config.",
   "devDependencies": {
     "eslint": "^7.7.0",
-    "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-json": "^2.1.2",
     "eslint-plugin-prettier": "^3.1.4",
     "markdownlint": "^0.20.4",
@@ -31,8 +32,14 @@
     "evernaut-type-eslint-config"
   ],
   "license": "MIT",
-  "main": "./src/index.js",
+  "main": "/src/index.js",
   "name": "eslint-config-evernaut-base",
+  "peerDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-plugin-json": "^2.1.2",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/evernaut/eslint-config-base"
@@ -42,8 +49,13 @@
     "lint:eslint": "eslint \"**/*.{js,json,ts}\" \"**/.*.{js,json,ts}\"",
     "lint:markdownlint": "markdownlint \"**/*.md\"",
     "lint:yamllint": "yamllint \"**/*.{yaml,yml}\" \"**/.*.{yaml,yml}\"",
-    "test": "npm-run-all -p test:*",
-    "test:lint": "npm run lint"
+    "lint-check-rules": "eslint --print-config \"./.eslintrc.js\" | eslint-config-prettier-check",
+    "prepublishOnly": "npm-run-all -s prepublishOnly:**",
+    "prepublishOnly:1": "npm ci",
+    "prepublishOnly:2": "npm test",
+    "test": "npm-run-all -p test:**",
+    "test:1": "npm run lint-check-rules",
+    "test:2": "npm run lint"
   },
   "version": "0.0.0"
 }

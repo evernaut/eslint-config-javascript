@@ -38,6 +38,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 - #1: Create git repository
 - #2: Add template files
+- #4: Add base ESLint config
 
 #### Migration Steps
 
