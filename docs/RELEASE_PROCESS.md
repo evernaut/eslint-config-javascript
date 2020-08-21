@@ -77,7 +77,13 @@
     git pull && git checkout <VERSION>
     ```
 
-15. Publish the project
+15. Log in to npm
+
+    ```sh
+    npm login
+    ```
+
+16. Publish the project
 
     ```sh
     docker run -t --mount src="$(pwd)",target="/opt/evernaut",type="bind" --mount src="$(cd ~/ && pwd)/.npmrc",target="/root/.npmrc",type="bind" evernaut/base:1.0.0 bash -c 'npm publish --unsafe-perm'

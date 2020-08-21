@@ -54,6 +54,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 - None
 
+## [1.0.1](https://github.com/evernaut/eslint-config-base/releases/tag/1.0.1 "Release 1.0.1")
+
+**Release Date:** 2020-08-20
+
+### Semantic Version: Patch
+
+- #8: Fix main path
+
 ## [1.0.0](https://github.com/evernaut/eslint-config-base/releases/tag/1.0.0 "Release 1.0.0")
 
 **Release Date:** 2020-08-20

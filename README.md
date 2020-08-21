@@ -29,7 +29,7 @@ The Evernaut base ESLint config.
 3. Add the configuration to the `extends` property in the project's eslint configuration
 
    ```js
-   extends: ["eslint-config-evernaut-base"]
+   extends: ["evernaut-base"]
    ```
 
 ## Process Guides
