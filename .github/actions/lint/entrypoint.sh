@@ -6,4 +6,4 @@ set -euo pipefail
 export PS4="+(${BASH_SOURCE}:${LINENO}): ${FUNCNAME[0]:+${FUNCNAME[0]}(): }"
 
 ## Run commands
-npm run lint
+npm run lint -- --silent

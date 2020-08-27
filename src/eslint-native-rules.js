@@ -3,7 +3,7 @@ module.exports = {
   "array-callback-return": "error",
   "arrow-body-style": "error",
   "block-scoped-var": "error",
-  "callback-return": "error",
+  "callback-return": "off",
   camelcase: "error",
   "capitalized-comments": [
     "error",

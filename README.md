@@ -14,7 +14,7 @@ The Evernaut base ESLint config.
 
 1. Install the package
 
-   ```bash
+   ```sh
    npm i -D eslint-config-evernaut-base
    ```
 
@@ -22,7 +22,7 @@ The Evernaut base ESLint config.
 
    - Ensure the versions match the required semver specifications in [package.json](./package.json "package.json")
 
-   ```bash
+   ```sh
    npm i -D eslint eslint-plugin-json eslint-plugin-prettier prettier
    ```
 
