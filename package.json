@@ -1,11 +1,11 @@
 {
   "bugs": {
-    "url": "https://github.com/evernaut/eslint-config-base/issues"
+    "url": "https://github.com/evernaut/eslint-config-javascript/issues"
   },
   "dependencies": {
     "eslint-config-prettier": "^6.11.0"
   },
-  "description": "The Evernaut base ESLint config.",
+  "description": "The Evernaut ESLint config for JavaScript projects.",
   "devDependencies": {
     "eslint": "^7.7.0",
     "eslint-plugin-json": "^2.1.2",
@@ -33,7 +33,7 @@
   ],
   "license": "MIT",
   "main": "./src/index.js",
-  "name": "eslint-config-evernaut-base",
+  "name": "eslint-config-evernaut-javascript",
   "peerDependencies": {
     "eslint": "^7.7.0",
     "eslint-plugin-json": "^2.1.2",
@@ -42,7 +42,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/evernaut/eslint-config-base"
+    "url": "https://github.com/evernaut/eslint-config-javascript"
   },
   "scripts": {
     "lint": "npm-run-all -p lint:*",
@@ -57,5 +57,5 @@
     "test:1": "npm run lint-check-rules",
     "test:2": "npm run lint -- --silent"
   },
-  "version": "1.1.0"
+  "version": "1.1.1"
 }

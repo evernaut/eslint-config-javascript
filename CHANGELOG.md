@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 <!--
 
-## [X.Y.Z](https://github.com/evernaut/eslint-config-base/releases/tag/X.Y.Z "Release X.Y.Z")
+## [X.Y.Z](https://github.com/evernaut/eslint-config-javascript/releases/tag/X.Y.Z "Release X.Y.Z")
 
 **Release Date:** YYYY-MM-DD
 
@@ -54,7 +54,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 - None
 
-## [1.1.0](https://github.com/evernaut/eslint-config-base/releases/tag/1.1.0 "Release 1.1.0")
+## [1.1.1](https://github.com/evernaut/eslint-config-javascript/releases/tag/1.1.1 "Release 1.1.1")
+
+**Release Date:** 2020-08-28
+
+### Semantic Version: Patch
+
+- #15: Migrate to eslint-config-javascript
+
+## [1.1.0](https://github.com/evernaut/eslint-config-javascript/releases/tag/1.1.0 "Release 1.1.0")
 
 **Release Date:** 2020-08-27
 
@@ -62,7 +70,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 - #12: Disable rules commonly broken in tests
 
-## [1.0.1](https://github.com/evernaut/eslint-config-base/releases/tag/1.0.1 "Release 1.0.1")
+## [1.0.1](https://github.com/evernaut/eslint-config-javascript/releases/tag/1.0.1 "Release 1.0.1")
 
 **Release Date:** 2020-08-20
 
@@ -70,7 +78,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) 
 
 - #8: Fix main path
 
-## [1.0.0](https://github.com/evernaut/eslint-config-base/releases/tag/1.0.0 "Release 1.0.0")
+## [1.0.0](https://github.com/evernaut/eslint-config-javascript/releases/tag/1.0.0 "Release 1.0.0")
 
 **Release Date:** 2020-08-20
 

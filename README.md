@@ -1,6 +1,6 @@
-# Evernaut / eslint-config-base
+# Evernaut / eslint-config-javascript
 
-The Evernaut base ESLint config.
+The Evernaut ESLint config for JavaScript projects.
 
 **Includes:**
 
@@ -15,7 +15,7 @@ The Evernaut base ESLint config.
 1. Install the package
 
    ```sh
-   npm i -D eslint-config-evernaut-base
+   npm i -D eslint-config-evernaut-javascript
    ```
 
 2. Install the npm peer dependencies
@@ -29,7 +29,7 @@ The Evernaut base ESLint config.
 3. Add the configuration to the `extends` property in the project's eslint configuration
 
    ```js
-   extends: ["evernaut-base"]
+   extends: ["evernaut-javascript"]
    ```
 
 ## Process Guides

@@ -25,13 +25,13 @@
 6. Clone the repository
 
    ```sh
-   git clone git@github.com:evernaut/eslint-config-base.git
+   git clone git@github.com:evernaut/eslint-config-javascript.git
    ```
 
 7. Change your current directory to the local clone of the repository
 
    ```sh
-   cd eslint-config-base
+   cd eslint-config-javascript
    ```
 
 8. Build the Docker image

@@ -1,7 +1,7 @@
-const evernautEslintConfigBase = require("./src/index");
+const eslintConfig = require("./src/index");
 
 module.exports = {
-  ...evernautEslintConfigBase,
+  ...eslintConfig,
   env: {
     es6: true,
     node: true,
