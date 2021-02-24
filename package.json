@@ -3,7 +3,7 @@
     "url": "https://github.com/evernaut/eslint-config-javascript/issues"
   },
   "dependencies": {
-    "eslint-config-prettier": "^6.11.0"
+    "eslint-config-prettier": "^8.1.0"
   },
   "description": "The Evernaut ESLint config for JavaScript projects.",
   "devDependencies": {
