@@ -7,7 +7,7 @@
   },
   "description": "The Evernaut ESLint config for JavaScript projects.",
   "devDependencies": {
-    "eslint": "^7.9.0",
+    "eslint": "^7.22.0",
     "eslint-plugin-json": "^2.1.2",
     "eslint-plugin-prettier": "^3.1.4",
     "markdownlint": "^0.20.4",
@@ -35,7 +35,7 @@
   "main": "./src/index.js",
   "name": "eslint-config-evernaut-javascript",
   "peerDependencies": {
-    "eslint": "^7.9.0",
+    "eslint": "^7.22.0",
     "eslint-plugin-json": "^2.1.2",
     "eslint-plugin-prettier": "^3.1.4",
     "prettier": "^2.1.2"
